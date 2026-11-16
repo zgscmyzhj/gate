@@ -9,7 +9,7 @@
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # 每 720 分钟一次，改成你自己的节奏
+    - cron: '0 */12 * * *'
   workflow_dispatch:
     inputs:
       max_nodes:
