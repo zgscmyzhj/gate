@@ -7,8 +7,8 @@
 #   schedule:
 #     - cron: '*/30 * * * *'
 on:
-  schedule:
-    - cron: '*/30 * * * *'
+ # schedule:
+ #  - cron: '*/30 * * * *'
   workflow_dispatch:
     inputs:
       max_nodes:
